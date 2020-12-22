@@ -9,8 +9,6 @@ pip install pdfkit
 
 ![For Windows 10](./res/install.PNG)
 
-<br></br>
-
 # Examples
 ## 1. Export pdf from url
 ```python
