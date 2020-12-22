@@ -14,3 +14,4 @@ collection = client.get_block('https://www.notion.so/c8cc0391fc2b48189cdf65a9e41
 for row in collection.get_rows():
     if row.status == 'Word':
         print('| %50s | %50s | %20s |'%(row.title, row.meaning, row.status))
+
